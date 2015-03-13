@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack",
     "watch": "webpack -w",
-    "serve": "open 'http://localhost:8080/webpack-dev-server/#/'; webpack-dev-server",
+    "serve": "open 'http://localhost:8080/webpack-dev-server/#/'; webpack-dev-server --content-base public/ --inline",
     "test": "jest --coverage"
   },
   "repository": {
