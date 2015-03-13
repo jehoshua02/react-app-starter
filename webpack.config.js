@@ -2,7 +2,12 @@ module.exports = {
   devtool: 'source-map',
   entry: "./app/index.js",
   output: {
-    filename: "public/bundle.js"
+    path: "./bundle.js"
+  },
+  devServer: {
+    contentBase: "./public",
+    colors: true,
+    noInfo: true
   },
   module: {
     loaders: [

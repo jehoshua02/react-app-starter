@@ -35,13 +35,6 @@ npm run watch
 ```
 
 
-## Preview
-
-```shell
-open public/index.html
-```
-
-
 ## Serve
 
 ```shell

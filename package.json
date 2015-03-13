@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack",
     "watch": "webpack -w",
-    "serve": "open http://localhost:8080 && webpack-dev-server --content-base public",
+    "serve": "open 'http://localhost:8080/webpack-dev-server/#/'; webpack-dev-server",
     "test": "jest --coverage"
   },
   "repository": {
@@ -27,6 +27,7 @@
     "react-router": "^0.12.4",
     "reflux": "^0.2.7",
     "rewire": "^2.3.1",
-    "webpack": "^1.7.3"
+    "webpack": "^1.7.3",
+    "webpack-dev-server": "^1.7.0"
   }
 }
