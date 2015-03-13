@@ -16,5 +16,15 @@
   "bugs": {
     "url": "https://github.com/jehoshua02/react-scaffold/issues"
   },
-  "homepage": "https://github.com/jehoshua02/react-scaffold"
+  "homepage": "https://github.com/jehoshua02/react-scaffold",
+  "devDependencies": {
+    "babel-core": "^4.7.12",
+    "babel-loader": "^4.1.0",
+    "jest": "^0.1.39",
+    "react": "^0.12.2",
+    "react-router": "^0.12.4",
+    "reflux": "^0.2.7",
+    "rewire": "^2.3.1",
+    "webpack": "^1.7.3"
+  }
 }
