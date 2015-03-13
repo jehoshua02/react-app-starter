@@ -5,7 +5,8 @@
   "description": "Couldn't find a Yeoman generator with webpack, react, reflux and react-router.",
   "scripts": {
     "build": "webpack",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "webpack -w",
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,7 @@
   "devDependencies": {
     "babel-core": "^4.7.12",
     "babel-loader": "^4.1.0",
-    "jest": "^0.1.39",
+    "jest-cli": "^0.4.0",
     "react": "^0.12.2",
     "react-router": "^0.12.4",
     "reflux": "^0.2.7",
