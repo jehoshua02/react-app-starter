@@ -10,30 +10,36 @@ npm install
 ```
 
 
-## Test
+## Tasks
+
+These are the build tasks available using `npm run <task>`. Look at `scripts` in
+`package.json` to see what they actually do.
+
+
+### test
 
 ```shell
-npm test
+npm run test
 ```
 
 Coverage reports saved to `coverage/`.
 
 
-## Serve
+### serve
 
 ```shell
 npm run serve
 ```
 
 
-## Watch
+### watch
 
 ```shell
 npm run watch
 ```
 
 
-## Build
+### build
 
 ```shell
 npm run build
@@ -42,10 +48,8 @@ npm run build
 Build output saved in `public/`.
 
 
-## Preview
+### preview
 
 ```shell
 npm run preview
 ```
-
-
