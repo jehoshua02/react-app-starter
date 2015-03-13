@@ -1,0 +1,33 @@
+{
+  "name": "react-scaffold",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Couldn't find a Yeoman generator with webpack, react, reflux and react-router.",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack -w",
+    "serve": "open 'http://localhost:8080/webpack-dev-server/#/'; webpack-dev-server",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jehoshua02/react-scaffold.git"
+  },
+  "author": "Joshua Stoutenburg <jehoshua02@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jehoshua02/react-scaffold/issues"
+  },
+  "homepage": "https://github.com/jehoshua02/react-scaffold",
+  "devDependencies": {
+    "babel-core": "^4.7.12",
+    "babel-loader": "^4.1.0",
+    "jest-cli": "^0.4.0",
+    "react": "^0.12.2",
+    "react-router": "^0.12.4",
+    "reflux": "^0.2.7",
+    "rewire": "^2.3.1",
+    "webpack": "^1.7.3",
+    "webpack-dev-server": "^1.7.0"
+  }
+}
