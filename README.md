@@ -3,6 +3,13 @@
 Couldn't find a Yeoman generator with webpack, react, reflux and react-router.
 
 
+## Setup
+
+```shell
+npm install
+```
+
+
 ## Tests
 
 ```shell
