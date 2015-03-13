@@ -10,13 +10,27 @@ npm install
 ```
 
 
-## Tests
+## Test
 
 ```shell
 npm test
 ```
 
 Coverage reports saved to `coverage/`.
+
+
+## Serve
+
+```shell
+npm run serve
+```
+
+
+## Watch
+
+```shell
+npm run watch
+```
 
 
 ## Build
@@ -28,15 +42,10 @@ npm run build
 Build output saved in `public/`.
 
 
-## Watch
+## Preview
 
 ```shell
-npm run watch
+npm run preview
 ```
 
 
-## Serve
-
-```shell
-npm run serve
-```
