@@ -4,10 +4,11 @@
   "private": true,
   "description": "Couldn't find a Yeoman generator with webpack, react, reflux and react-router.",
   "scripts": {
-    "build": "webpack",
-    "watch": "webpack -w",
+    "test": "jest --coverage",
     "serve": "open 'http://localhost:8080/webpack-dev-server/#/'; webpack-dev-server --content-base public/ --inline",
-    "test": "jest --coverage"
+    "watch": "webpack -w",
+    "build": "webpack",
+    "preview": "open public/index.html"
   },
   "repository": {
     "type": "git",
