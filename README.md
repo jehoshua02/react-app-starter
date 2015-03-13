@@ -41,4 +41,9 @@ npm run watch
 open public/index.html
 ```
 
-(I would love to figure out how to serve and refresh browser on build)
+
+## Serve
+
+```shell
+npm run serve
+```
