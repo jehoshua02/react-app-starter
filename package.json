@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest --coverage",
     "serve": "open 'http://localhost:8080/webpack-dev-server/#/'; webpack-dev-server --content-base public/ --inline",
-    "watch": "webpack -w",
+    "watch": "npm run preview; webpack -w",
     "build": "webpack",
     "preview": "open public/index.html"
   },
