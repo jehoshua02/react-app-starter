@@ -1,4 +1,4 @@
-# React Scaffold
+# React App Starter
 
 Couldn't find a Yeoman generator with webpack, react, reflux, jest and react-router.
 

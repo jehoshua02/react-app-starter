@@ -1,5 +1,5 @@
 {
-  "name": "react-scaffold",
+  "name": "react-app-starter",
   "version": "1.0.0",
   "private": true,
   "description": "Couldn't find a Yeoman generator with webpack, react, reflux and react-router.",
