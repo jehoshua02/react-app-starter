@@ -20,14 +20,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jehoshua02/react-scaffold.git"
+    "url": "https://github.com/jehoshua02/react-app-starter.git"
   },
   "author": "Joshua Stoutenburg <jehoshua02@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jehoshua02/react-scaffold/issues"
+    "url": "https://github.com/jehoshua02/react-app-starter/issues"
   },
-  "homepage": "https://github.com/jehoshua02/react-scaffold",
+  "homepage": "https://github.com/jehoshua02/react-app-starter",
   "devDependencies": {
     "babel-core": "^4.7.12",
     "babel-jest": "^4.0.0",
