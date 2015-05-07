@@ -18,15 +18,6 @@ These are the build tasks available using `npm run <task>`. Look at `scripts` in
 `package.json` to see what they actually do.
 
 
-### test
-
-```shell
-npm run test
-```
-
-Coverage reports saved to `coverage/`.
-
-
 ### serve
 
 ```shell
