@@ -11,7 +11,7 @@ var Hello = React.createClass({
   render: function () {
     return (
       <div>
-        <h1>Hello {this.props.name}</h1>
+        <h2>Hello {this.props.name}</h2>
         <input type="text" defaultValue={this.props.name} onKeyUp={this._handleOnKeyUp} />
       </div>
     );
