@@ -5,13 +5,6 @@ Couldn't find a Yeoman generator with webpack, react, reflux, jest and react-rou
 There's lots of [others](https://github.com/search?utf8=%E2%9C%93&q=webpack+react+reflux+&type=Repositories&ref=searchresults) out there.
 
 
-## Setup
-
-```shell
-npm install
-```
-
-
 ## Tasks
 
 These are the build tasks available using `npm run <task>`. Look at `scripts` in

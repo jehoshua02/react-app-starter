@@ -4,14 +4,8 @@ var React = require('react');
 var Hello = React.createClass({
 
   propTypes: {
-    name: React.PropTypes.string,
+    name: React.PropTypes.string.isRequired,
     onSubmit: React.PropTypes.func.isRequired
-  },
-
-  getDefaultProps: function () {
-    return {
-      name: 'World'
-    };
   },
 
   render: function () {
