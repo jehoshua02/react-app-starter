@@ -4,9 +4,10 @@
   "private": true,
   "description": "Couldn't find a Yeoman generator with webpack, react, reflux and react-router.",
   "scripts": {
-    "serve": "open 'http://localhost:8080/webpack-dev-server/#/'; webpack-dev-server --content-base public/",
-    "watch": "npm run preview; webpack -w",
-    "build": "webpack",
+    "init": "npm install",
+    "serve": "npm run init; open 'http://localhost:8080/webpack-dev-server/#/'; webpack-dev-server --content-base public/",
+    "watch": "npm run init; npm run preview; webpack -w",
+    "build": "npm run init; webpack",
     "preview": "open public/index.html"
   },
   "repository": {
