@@ -4,19 +4,10 @@
   "private": true,
   "description": "Couldn't find a Yeoman generator with webpack, react, reflux and react-router.",
   "scripts": {
-    "test": "NODE_PATH=. jest",
     "serve": "open 'http://localhost:8080/webpack-dev-server/#/'; webpack-dev-server --content-base public/",
     "watch": "npm run preview; webpack -w",
     "build": "webpack",
     "preview": "open public/index.html"
-  },
-  "jest": {
-    "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
-    "unmockedModulePathPatterns": [
-      "react", "react/addons"
-    ],
-    "testDirectoryName": "app",
-    "testFileExtensions": ["test.js"]
   },
   "repository": {
     "type": "git",
@@ -32,7 +23,6 @@
     "babel-core": "^4.7.12",
     "babel-jest": "^4.0.0",
     "babel-loader": "^4.1.0",
-    "jest-cli": "^0.4.0",
     "react": "^0.12.2",
     "react-router": "^0.12.4",
     "reflux": "^0.2.7",
